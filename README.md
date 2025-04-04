@@ -27,3 +27,23 @@ It dynamically generates a memory reference string using system memory stats and
    ```bash
    g++ SmartCacheLive.cpp -o SmartCacheLive
    ./SmartCacheLive
+2. Enter the number of memory pages and cache size.
+
+3. See console results and a bar graph (requires Python & matplotlib).
+
+## 📈 Output
+
+- Console Output: Total page faults by algorithm
+- Graph: Visual bar chart of page fault comparison
+
+
+## OS Memory Management
+
+File I/O (C++ & Python)
+
+Cross-language integration (C++ to Python)
+
+## 🐍 Python Dependencies
+```bash
+pip install matplotlib
+
